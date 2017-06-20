@@ -1,0 +1,139 @@
+body{
+	background-color: #f2f2f2;
+	font-family: 'Roboto', sans-serif;
+
+}
+h1{
+	font-size:16px;
+	font-weight: bold; 
+	margin:0;
+}
+h2{
+	font-size: 14px;
+	font-weight: bold; 
+	margin:14px 0;
+}
+p{
+	font-size: 14px;
+	color: #86939e;
+}
+img{
+	display: inline-block !important;
+}
+input{
+	height: 45px !important;
+}
+select{
+	height: 45px !important;
+}
+label{
+	margin-top: 15px;
+}
+.input-container{
+	display: relative;
+}
+.input-container span{
+	display: block;
+	position: absolute;
+	right: 26px;
+	top: 52px;
+	width: 25px;
+	height: 25px;
+	background-image: url("../assets/icon-tick.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.valid{
+    border-color: #7dc855;
+}
+.nav-tabs>li {
+    float: none;
+    display: inline-block !important;
+}
+
+.well{
+	background-color: #fff;
+	padding: 10px 0;
+}
+.tab-pane .container-fluid{
+	padding-left: 0;
+	padding-right: 0; 
+}
+.header{
+	padding: 30px 15px;
+	margin:0;
+}
+.footer{
+	padding:0 15px;
+	margin:0;
+    border-top: 1px solid #ddd;
+}
+.footer .return{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.footer .finish{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+.logo-container{
+	text-align: right;
+}
+.paypal-row{
+	padding: 30px 15px;
+	margin:0;
+	background-color: #f5f6fa;
+
+}
+.credit-card-row{
+	padding: 30px 15px;
+	margin:0;
+}
+.credit-card-row .info{
+    border-bottom: 1px solid #ddd;
+}
+.radio{
+	width: 25px;
+	height: 25px;
+	background-position: center;
+	background-repeat: no-repeat;
+
+}
+.radio-inactive{
+	background-image: url("../assets/radio-inactive.png");
+}
+.radio-active{
+	background-image: url("../assets/radio-inactive.png");
+}
+a{
+	color: #bdc6cf ;
+}
+.active a{
+	border:none !important;
+	border-bottom: 1px solid #358ed7 !important;
+	color: #358ed7 !important;
+}
+.return{
+	text-align: center;
+	color: #86939e;
+	cursor: pointer;
+	 border-right: 1px solid #ddd;
+}
+.finish{
+	color: #7dc855;
+	text-align: center;
+	color: #86939e;
+
+}
+.finish span{
+	display: inline-block;
+}
+.finish .arrow{
+	width: 25px;
+	height: 10px;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-image: url("../assets/icon-next.png");
+	cursor: pointer;
+
+} 

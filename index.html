@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Code Test</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="./css/styles.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-3"></div>
+            <div class="col-md-6">
+                <div class="row">
+                    <div class="col-xs-12">
+                        <div id="myTabs" class="well">
+
+                            <!-- Nav tabs -->
+                            <ul class="nav nav-tabs" role="tablist">
+                                <li role="presentation">
+                                    <a href="#cart" aria-controls="cart" role="tab" data-toggle="tab">Cart</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#customerinfo" aria-controls="customerinfo" role="tab" data-toggle="tab">Customer Information</a>
+                                </li>
+                                <li role="presentation">
+                                    <a href="#shipping" aria-controls="shipping" role="tab" data-toggle="tab">Shipping</a>
+                                </li>
+                                <li role="presentation" class="active">
+                                    <a href="#payment" aria-controls="payment" role="tab" data-toggle="tab">Payment</a>
+                                </li>
+                            </ul>
+
+                            <!-- Tab panes -->
+                            <div class="tab-content">
+                                <div role="tabpanel" class="tab-pane" id="cart">...</div>
+                                <div role="tabpanel" class="tab-pane" id="customerinfo">...</div>
+                                <div role="tabpanel" class="tab-pane" id="shipping">...</div>
+                                <div role="tabpanel" class="tab-pane active" id="payment">
+                                    
+                                    <div class="container-fluid">
+                                        <div class="row header">
+                                            <div class="col-xs-12">
+                                                <h1>Choose your payment method</h1>
+                                            </div>
+                                        </div>
+                                        <div class="row paypal-row">
+                                            <div class="col-xs-1">
+                                                <div class="radio radio-inactive">
+                                                </div>
+                                            </div>
+                                            <div class="col-xs-8">
+                                                <h2>Paypal</h2>
+                                                <p>Safe payment online. Credit card needed. PayPal account is not necessary.</p>
+                                            </div>
+                                            <div class="col-xs-3 logo-container">
+                                                <img class="img-responsive" alt="paypal logo" src="assets/logo-paypal.png">
+                                            </div>
+
+                                        </div>
+                                        <div class="row credit-card-row">
+                                            <div class="col-xs-12">
+                                                <div class="row info">
+                                                    <div class="col-xs-1">
+                                                        <div class="radio radio-active">
+                                                        </div>
+                                                    </div>
+                                                    <div class="col-xs-8">
+                                                        <h2>Credit Card</h2>
+                                                        <p>Safe money transfer using bank account. Safe payment online. Credit card needed. Visa, Maestro, Discover, American Express</p>
+                                                    </div>
+                                                    <div class="col-xs-3 logo-container">
+                                                        <img class="img-responsive" alt="paypal logo" src="assets/logo-visa.png">
+                                                        <img class="img-responsive" alt="paypal logo" src="assets/logo-mastercard.png">
+                                                    </div>
+                                                    
+                                                </div>
+                                                <div class="row form-wrapper">
+                                                    <div class="col-xs-12">
+                                                        <label for="creditCard">Credit Card</label>
+                                                        <div class="input-container">
+                                                            <input type="text" name="creditCard" class="form-control valid">
+                                                            <span></span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="row form-wrapper">
+                                                    <div class="col-xs-3">
+                                                        <label>Expery Date</label>
+                                                        <select class="form-control">
+                                                            <option>01</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-xs-3">
+                                                        <label>&nbsp</label>
+                                                        <select class="form-control">
+                                                            <option>01</option>
+                                                        </select>
+                                                    </div>
+                                                    <div class="col-xs-6">
+                                                        <label>CVV Code</label>
+                                                        <input type="text" name="cvv" class="form-control">
+                                                    </div>
+                                                </div>
+                                                <div class="row form-wrapper">
+                                                    <div class="col-xs-12">
+                                                        <label>Name on Card</label>
+                                                        <input type="text" name="name" class="form-control">
+                                                    </div>
+                                                </div>
+                                            </div>
+
+                                        </div>
+                                        <div class="row footer">
+                                            <div class="col-xs-6 return">
+                                                <span>Return to shipping</span>
+                                            </div>
+                                            <div class="col-xs-6 finish">
+                                                <span>Finish order</span>
+                                                <span class="arrow"></span>
+                                            </div>
+                                        </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3"></div>
+
+        </div>
+    </div>
+
+</body>
+</html>
